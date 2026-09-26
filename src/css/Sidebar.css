@@ -1,0 +1,46 @@
+.sidebar {
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
+    height: fit-content;
+}
+
+.sidebar h2 {
+    color: #5f27cd;
+
+    font-size: 22px;
+
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    border-bottom: 1px solid #ddd;
+
+    padding: 12px 0;
+}
+
+.sidebar li:last-child {
+    border-bottom: none;
+}
+
+.sidebar a {
+    color: #333;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #5f27cd;
+    padding-left: 5px;
+}

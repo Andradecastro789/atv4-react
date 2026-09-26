@@ -1,0 +1,38 @@
+.header {
+    background: linear-gradient(
+        135deg,
+        #1a1a2e,
+        #302b63,
+        #5f27cd
+    );
+
+    color: white;
+
+    text-align: center;
+
+    padding: 45px 20px;
+
+    border-bottom: 5px solid #8e44ad;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .header p {
+        font-size: 16px;
+    }
+
+}
